@@ -1,0 +1,15 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Lista de cambios no controlados predeterminada",
+			"files": [
+				"C:/Users/nacho/OneDrive/Documentos/Unreal Projects/Clases/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset",
+				"C:/Users/nacho/OneDrive/Documentos/Unreal Projects/Clases/Content/ThirdPerson/Blueprints/BP_Lava.uasset",
+				"C:/Users/nacho/OneDrive/Documentos/Unreal Projects/Clases/Content/ThirdPerson/Blueprints/BP_Wid_Muerto.uasset",
+				"C:/Users/nacho/OneDrive/Documentos/Unreal Projects/Clases/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/E/M2/8OP4Y2LY4IGXZXCS9YSDPL.uasset"
+			]
+		}
+	]
+}
