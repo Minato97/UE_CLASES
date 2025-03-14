@@ -5882,3 +5882,129 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.03.14-00.10.16:093][997]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
 [2025.03.14-00.10.16:093][997]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
 [2025.03.14-00.10.16:093][997]AssetCheck: /Game/ThirdPerson/Maps/ThirdPersonMap Validando recurso
+[2025.03.14-00.12.38:102][492]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Altavoces (5- Redragon Gaming Headset), InstanceID=1
+[2025.03.14-00.12.38:430][493]LogAudioMixer: Display: StartRunningNullDevice() called, InstanceID=1
+[2025.03.14-00.12.38:507][494]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=9444
+[2025.03.14-00.12.38:763][494]LogAudioMixer: Display: StopRunningNullDevice() called, InstanceID=1
+[2025.03.14-00.12.38:802][494]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{5fafb1ff-fff2-4b52-893a-84a349d9c0f2}, Name=Altavoces (5- Redragon Gaming Headset)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=140.54
+[2025.03.14-00.12.38:802][494]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2025.03.14-00.12.38:804][494]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2025.03.14-00.15.35:799][ 25]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 9182.873047
+[2025.03.14-00.15.36:800][ 28]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.03.14-00.15.36:800][ 28]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 9183.541016, Update Interval: 347.151093
+[2025.03.14-00.16.08:398][120]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=24G1WG3- (NVIDIA High Definition Audio), InstanceID=1
+[2025.03.14-00.16.15:345][120]LogAudioMixer: Display: StartRunningNullDevice() called, InstanceID=1
+[2025.03.14-00.16.15:345][120]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=9444
+[2025.03.14-00.16.16:979][121]LogAudioMixer: Display: StopRunningNullDevice() called, InstanceID=1
+[2025.03.14-00.16.16:982][121]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{b26cd889-8ad9-44a3-8153-de199bbc92b9}, Name=24G1WG3- (NVIDIA High Definition Audio)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=46.50
+[2025.03.14-00.16.16:982][121]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2025.03.14-00.16.16:985][121]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2025.03.14-00.16.22:800][139]LogUObjectHash: Compacting FUObjectHashTables data took   6.62ms
+[2025.03.14-00.16.24:039][139]LogSlate: Window 'Guardar contenido' being destroyed
+[2025.03.14-00.16.24:729][139]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.03.14-00.16.25:344][139]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/BP_Lava] ([2] browsable assets)...
+[2025.03.14-00.16.25:344][139]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Lava]
+[2025.03.14-00.16.25:344][139]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Lava" FILE="C:/Users/Nacho Andrade/Documents/Unreal Projects/UE_CLASES/Content/Blueprints/BP_Lava.uasset" SILENT=true
+[2025.03.14-00.16.25:371][139]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Lava
+[2025.03.14-00.16.25:373][139]LogSavePackage: Moving 'C:/Users/Nacho Andrade/Documents/Unreal Projects/UE_CLASES/Saved/BP_Lava321CEECF41D3B4CF55608FACAFD0ED66.tmp' to 'C:/Users/Nacho Andrade/Documents/Unreal Projects/UE_CLASES/Content/Blueprints/BP_Lava.uasset'
+[2025.03.14-00.16.25:376][139]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/NinjaCharacter/Animations/BPAnim_Ninja] ([2] browsable assets)...
+[2025.03.14-00.16.25:377][139]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/NinjaCharacter/Animations/BPAnim_Ninja]
+[2025.03.14-00.16.25:415][139]LogSavePackage: Moving output files for package: /Game/Characters/NinjaCharacter/Animations/BPAnim_Ninja
+[2025.03.14-00.16.25:417][139]LogSavePackage: Moving 'C:/Users/Nacho Andrade/Documents/Unreal Projects/UE_CLASES/Saved/BPAnim_NinjaAB64ABCD4AC02E69F9AA8B80D2793609.tmp' to 'C:/Users/Nacho Andrade/Documents/Unreal Projects/UE_CLASES/Content/Characters/NinjaCharacter/Animations/BPAnim_Ninja.uasset'
+[2025.03.14-00.16.25:437][139]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/sonidos/los-del-rio-macarena__mp3cut_net___5_] ([1] browsable assets)...
+[2025.03.14-00.16.25:463][139]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/sonidos/los-del-rio-macarena__mp3cut_net___5_.los-del-rio-macarena__mp3cut_net___5_]
+[2025.03.14-00.16.25:463][139]OBJ SavePackage: Finished generating thumbnails for package [/Game/sonidos/los-del-rio-macarena__mp3cut_net___5_]
+[2025.03.14-00.16.25:518][139]LogSavePackage: Moving output files for package: /Game/sonidos/los-del-rio-macarena__mp3cut_net___5_
+[2025.03.14-00.16.25:519][139]LogSavePackage: Moving 'C:/Users/Nacho Andrade/Documents/Unreal Projects/UE_CLASES/Saved/los-del-rio-macarena__mp3cut_net40025BF949E493BE289B21BD360D7C39.tmp' to 'C:/Users/Nacho Andrade/Documents/Unreal Projects/UE_CLASES/Content/sonidos/los-del-rio-macarena__mp3cut_net___5_.uasset'
+[2025.03.14-00.16.26:239][139]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.51 sec (total: 4.69 sec)
+[2025.03.14-00.16.26:437][139]LogStall: Shutdown...
+[2025.03.14-00.16.26:437][139]LogStall: Shutdown complete.
+[2025.03.14-00.16.26:531][139]LogSlate: Window 'Clases - Unreal Editor' being destroyed
+[2025.03.14-00.16.26:602][139]LogWindowsTextInputMethodSystem: Activated input method: Español (México) - (Keyboard).
+[2025.03.14-00.16.34:628][139]LogContentValidation: Display: Starting to validate 3 assets
+[2025.03.14-00.16.34:628][139]LogContentValidation: Enabled validators:
+[2025.03.14-00.16.34:628][139]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.03.14-00.16.34:628][139]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.03.14-00.16.34:628][139]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.03.14-00.16.34:628][139]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.03.14-00.16.34:628][139]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.03.14-00.16.34:628][139]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.03.14-00.16.34:628][139]AssetCheck: /Game/Blueprints/BP_Lava Validando recurso
+[2025.03.14-00.16.34:628][139]AssetCheck: /Game/Characters/NinjaCharacter/Animations/BPAnim_Ninja Validando recurso
+[2025.03.14-00.16.34:628][139]AssetCheck: /Game/sonidos/los-del-rio-macarena__mp3cut_net___5_ Validando recurso
+[2025.03.14-00.16.34:667][139]Cmd: QUIT_EDITOR
+[2025.03.14-00.16.34:668][139]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2025.03.14-00.16.34:714][140]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2025.03.14-00.16.34:716][140]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2025.03.14-00.16.34:716][140]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2025.03.14-00.16.34:849][140]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.03.14-00.16.34:850][140]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.14-00.16.34:850][140]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap
+[2025.03.14-00.16.35:108][140]LogStylusInput: Shutting down StylusInput subsystem.
+[2025.03.14-00.16.35:298][140]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2025.03.14-00.16.35:724][140]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2025.03.14-00.16.35:724][140]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.14-00.16.35:729][140]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2025.03.14-00.16.35:729][140]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.14-00.16.35:734][140]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2025.03.14-00.16.35:734][140]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.14-00.16.35:738][140]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2025.03.14-00.16.35:739][140]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.14-00.16.35:743][140]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2025.03.14-00.16.35:743][140]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.14-00.16.35:748][140]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2025.03.14-00.16.35:748][140]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.14-00.16.35:754][140]LogWorld: UWorld::CleanupWorld for World_21, bSessionEnded=true, bCleanupResources=true
+[2025.03.14-00.16.35:754][140]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.14-00.16.35:762][140]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2025.03.14-00.16.35:762][140]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.14-00.16.35:768][140]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2025.03.14-00.16.35:769][140]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.14-00.16.35:774][140]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2025.03.14-00.16.35:774][140]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.14-00.16.35:779][140]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2025.03.14-00.16.35:779][140]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.14-00.16.35:783][140]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2025.03.14-00.16.35:783][140]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.14-00.16.35:797][140]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2025.03.14-00.16.35:797][140]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.14-00.16.35:801][140]LogWorld: UWorld::CleanupWorld for World_31, bSessionEnded=true, bCleanupResources=true
+[2025.03.14-00.16.35:802][140]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.14-00.16.35:940][140]LogStudioTelemetry: Ended StudioTelemetry Session
+[2025.03.14-00.16.35:956][140]LogAnalytics: Display: [UEEditor.Rocket.Release] Destroying ET Analytics provider
+[2025.03.14-00.16.35:956][140]LogAnalytics: Display: [UEEditor.Rocket.Release] Ended ET Analytics provider session
+[2025.03.14-00.16.35:956][140]LogAnalytics: Display: [UEEditor.Rocket.Release] Destroyed ET Analytics provider
+[2025.03.14-00.16.36:770][140]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2025.03.14-00.16.36:770][140]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2025.03.14-00.16.36:770][140]LogAudio: Display: Audio Device unregistered from world 'ThirdPersonMap'.
+[2025.03.14-00.16.36:770][140]LogAudio: Display: Shutting down audio device while 1 references to it are still alive. For more information, compile with INSTRUMENT_AUDIODEVICE_HANDLES.
+[2025.03.14-00.16.36:770][140]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2025.03.14-00.16.36:772][140]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2025.03.14-00.16.37:307][140]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID -1
+[2025.03.14-00.16.37:342][140]LogAudio: Display: Audio Device Manager Shutdown
+[2025.03.14-00.16.37:648][140]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2025.03.14-00.16.37:649][140]LogExit: Preparing to exit.
+[2025.03.14-00.16.38:658][140]LogUObjectHash: Compacting FUObjectHashTables data took   2.22ms
+[2025.03.14-00.16.38:713][140]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.add_controls_for_selected_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.03.14-00.16.38:751][140]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.add_controls_for_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.03.14-00.16.39:102][140]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_null_above_selected_PY.add_null_above_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.03.14-00.16.39:149][140]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.03.14-00.16.39:157][140]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_all' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.03.14-00.16.39:157][140]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_x' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.03.14-00.16.39:157][140]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_y' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.03.14-00.16.39:157][140]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_z' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.03.14-00.16.39:157][140]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.03.14-00.16.39:157][140]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_scale' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.03.14-00.16.39:157][140]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.search_replace_name_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.03.14-00.16.39:157][140]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.search_replace_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.03.14-00.16.39:157][140]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_prefix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.03.14-00.16.39:157][140]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_prefix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.03.14-00.16.39:175][140]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_suffix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.03.14-00.16.39:175][140]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_suffix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.03.14-00.16.39:211][140]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.do_rename_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.03.14-00.16.39:212][140]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.do_rename_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.03.14-00.16.39:245][140]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/set_bone_reference_pose_PY.set_bone_reference_pose' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.03.14-00.16.39:268][140]LogPython: Display: Object '/ControlRig/Python/ControlRigWorkflows/workflow_fbik_import_ik_rig_PY.import_ik_rig_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.03.14-00.16.39:268][140]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.ControlOutputFormat' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.03.14-00.16.44:146][140]LogEditorDataStorage: Deinitializing
+[2025.03.14-00.16.48:236][140]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
