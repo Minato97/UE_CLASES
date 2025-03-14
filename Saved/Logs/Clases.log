@@ -3710,3 +3710,277 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.03.14-19.28.37:421][500]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
 [2025.03.14-19.28.37:421][500]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
 [2025.03.14-19.28.37:421][500]AssetCheck: /Game/Characters/NinjaCharacter/Animations/BPAnim_Ninja Validando recurso
+[2025.03.14-19.31.15:765][325]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/Characters/NinjaCharacter/Animations/Jump.Jump
+[2025.03.14-19.31.15:887][325]LogUObjectGlobals: Warning: No se pudo encontrar el objeto «Class /Script/ApexDestruction DestructibleMesh».
+[2025.03.14-19.31.15:902][325]LogChaosDD: Creating Chaos Debug Draw Scene for world World_30
+[2025.03.14-19.32.02:426][530]LogUObjectHash: Compacting FUObjectHashTables data took   2.49ms
+[2025.03.14-19.32.04:581][566]LogDebuggerCommands: Repeating last play command: Visor seleccionado
+[2025.03.14-19.32.04:600][566]LogContentBundle: [ThirdPersonMap(Autónomo)] Generating Streaming for 0 Content Bundles.
+[2025.03.14-19.32.04:601][566]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2025.03.14-19.32.04:608][566]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 7.019 ms (total: 47.144 ms)
+[2025.03.14-19.32.04:610][566]LogPlayLevel: [PlayLevel] Compiling BPA_Perseguidor before play...
+[2025.03.14-19.32.04:720][566]LogUObjectHash: Compacting FUObjectHashTables data took   2.69ms
+[2025.03.14-19.32.04:722][566]LogPlayLevel: PlayLevel: Blueprint regeneration took 114 ms (1 blueprints)
+[2025.03.14-19.32.04:723][566]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2025.03.14-19.32.04:737][566]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014585s)
+[2025.03.14-19.32.04:737][566]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.014639s)
+[2025.03.14-19.32.04:768][566]LogUObjectHash: Compacting FUObjectHashTables data took   2.43ms
+[2025.03.14-19.32.04:769][566]LogChaosDD: Creating Chaos Debug Draw Scene for world ThirdPersonMap
+[2025.03.14-19.32.04:773][566]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.03.14-19.32.04:773][566]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.03.14-19.32.04:773][566]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.03.14-19.32.04:773][566]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.03.14-19.32.04:777][566]LogWorldPartition: Display: WorldPartition initialize took 4.518 ms (total: 2.14 sec)
+[2025.03.14-19.32.04:777][566]LogPlayLevel: PIE: World Init took: (0.008104s)
+[2025.03.14-19.32.04:780][566]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2025.03.14-19.32.04:780][566]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.03.14-19.32.04:780][566]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.03.14-19.32.04:780][566]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.03.14-19.32.04:780][566]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.03.14-19.32.04:780][566]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.03.14-19.32.04:780][566]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.03.14-19.32.04:780][566]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.03.14-19.32.04:780][566]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.03.14-19.32.04:780][566]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.03.14-19.32.04:780][566]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.03.14-19.32.04:780][566]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.03.14-19.32.04:784][566]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.03.14-19.32.04:826][566]LogAudioMixer: Display: Using Audio Hardware Device Speaker (Realtek(R) Audio)
+[2025.03.14-19.32.04:826][566]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.03.14-19.32.04:827][566]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.03.14-19.32.04:827][566]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.03.14-19.32.04:827][566]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2025.03.14-19.32.04:827][566]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=7
+[2025.03.14-19.32.04:831][566]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2025.03.14-19.32.04:831][566]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2025.03.14-19.32.04:831][566]LogInit: FAudioDevice initialized with ID 7.
+[2025.03.14-19.32.04:831][566]LogAudio: Display: Audio Device (ID: 7) registered with world 'ThirdPersonMap'.
+[2025.03.14-19.32.04:831][566]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 7
+[2025.03.14-19.32.04:835][566]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.03.14-19.32.04:840][566]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 60) at 2025.03.14-13.32.04
+[2025.03.14-19.32.04:841][566]LogWorld: Bringing up level for play took: 0.005615
+[2025.03.14-19.32.04:845][566]LogOnline: OSS: Created online subsystem instance for: :Context_37
+[2025.03.14-19.32.04:852][566]PIE: El servidor ha iniciado sesión
+[2025.03.14-19.32.04:852][566]PIE: Tiempo de inicio total de la reproducción en el editor de 0,252 segundos.
+[2025.03.14-19.33.34:543][290]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 6971.918945
+[2025.03.14-19.33.36:051][341]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.03.14-19.33.36:051][341]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 6973.398438, Update Interval: 306.815399
+[2025.03.14-19.35.09:239][495]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.03.14-19.35.09:240][495]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2025.03.14-19.35.09:240][495]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.03.14-19.35.09:241][495]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.14-19.35.09:242][495]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap
+[2025.03.14-19.35.09:251][495]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.03.14-19.35.09:266][495]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.14-19.35.09:309][495]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.03.14-19.35.09:309][495]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 7
+[2025.03.14-19.35.09:310][495]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2025.03.14-19.35.09:313][495]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2025.03.14-19.35.09:326][495]LogUObjectHash: Compacting FUObjectHashTables data took   3.01ms
+[2025.03.14-19.35.09:733][496]LogPlayLevel: Display: Destroying online subsystem :Context_37
+[2025.03.14-19.35.12:967][551]LogUObjectHash: Compacting FUObjectHashTables data took   2.26ms
+[2025.03.14-19.35.13:963][578]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.03.14-19.35.14:075][578]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Characters/Perseguidor/Animations/BPA_Perseguidor] ([2] browsable assets)...
+[2025.03.14-19.35.14:088][578]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Characters/Perseguidor/Animations/BPA_Perseguidor.BPA_Perseguidor]
+[2025.03.14-19.35.14:088][578]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/Perseguidor/Animations/BPA_Perseguidor]
+[2025.03.14-19.35.14:096][578]LogSavePackage: Moving output files for package: /Game/Characters/Perseguidor/Animations/BPA_Perseguidor
+[2025.03.14-19.35.14:096][578]LogSavePackage: Moving '../../../../../../Users/nacho/OneDrive/Documentos/Unreal Projects/UE_CLASES/Saved/BPA_Perseguidor3B7B17184DD11572878914A2D5639CE5.tmp' to '../../../../../../Users/nacho/OneDrive/Documentos/Unreal Projects/UE_CLASES/Content/Characters/Perseguidor/Animations/BPA_Perseguidor.uasset'
+[2025.03.14-19.35.14:474][578]LogFileHelpers: InternalPromptForCheckoutAndSave took 511.886 ms (total: 3.72 sec)
+[2025.03.14-19.35.14:590][578]LogContentValidation: Display: Starting to validate 1 assets
+[2025.03.14-19.35.14:591][578]LogContentValidation: Enabled validators:
+[2025.03.14-19.35.14:591][578]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.03.14-19.35.14:591][578]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.03.14-19.35.14:591][578]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.03.14-19.35.14:591][578]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.03.14-19.35.14:591][578]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.03.14-19.35.14:591][578]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.03.14-19.35.14:591][578]AssetCheck: /Game/Characters/Perseguidor/Animations/BPA_Perseguidor Validando recurso
+[2025.03.14-19.35.15:553][617]LogUObjectHash: Compacting FUObjectHashTables data took   3.26ms
+[2025.03.14-19.35.16:784][617]LogSlate: Window 'Guardar contenido' being destroyed
+[2025.03.14-19.35.17:140][617]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.03.14-19.35.17:254][617]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Characters/NinjaCharacter/Animations/BPAnim_Ninja] ([2] browsable assets)...
+[2025.03.14-19.35.17:282][617]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Characters/NinjaCharacter/Animations/BPAnim_Ninja.BPAnim_Ninja]
+[2025.03.14-19.35.17:282][617]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/NinjaCharacter/Animations/BPAnim_Ninja]
+[2025.03.14-19.35.17:319][617]LogSavePackage: Moving output files for package: /Game/Characters/NinjaCharacter/Animations/BPAnim_Ninja
+[2025.03.14-19.35.17:321][617]LogSavePackage: Moving '../../../../../../Users/nacho/OneDrive/Documentos/Unreal Projects/UE_CLASES/Saved/BPAnim_Ninja586176A24F3AD342120B868222CBED48.tmp' to '../../../../../../Users/nacho/OneDrive/Documentos/Unreal Projects/UE_CLASES/Content/Characters/NinjaCharacter/Animations/BPAnim_Ninja.uasset'
+[2025.03.14-19.35.17:324][617]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/LevelPrototyping/Meshes/M_SM_Cube_M_Brick_Clay_New_6221AC0D4CD5722085C61599F0A6A513] ([2] browsable assets)...
+[2025.03.14-19.35.17:324][617]OBJ SavePackage: Finished generating thumbnails for package [/Game/LevelPrototyping/Meshes/M_SM_Cube_M_Brick_Clay_New_6221AC0D4CD5722085C61599F0A6A513]
+[2025.03.14-19.35.17:334][617]LogSavePackage: Moving output files for package: /Game/LevelPrototyping/Meshes/M_SM_Cube_M_Brick_Clay_New_6221AC0D4CD5722085C61599F0A6A513
+[2025.03.14-19.35.17:334][617]LogSavePackage: Moving '../../../../../../Users/nacho/OneDrive/Documentos/Unreal Projects/UE_CLASES/Saved/M_SM_Cube_M_Brick_Clay_New_6221AD6F3999640ADA656D24ECA83EAFF3153.tmp' to '../../../../../../Users/nacho/OneDrive/Documentos/Unreal Projects/UE_CLASES/Content/LevelPrototyping/Meshes/M_SM_Cube_M_Brick_Clay_New_6221AC0D4CD5722085C61599F0A6A513.uasset'
+[2025.03.14-19.35.17:342][617]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/LevelPrototyping/Meshes/M_SM_Cube_M_CobbleStone_Rough_5392985C4A0F8912B41B89AA34DAEE03] ([2] browsable assets)...
+[2025.03.14-19.35.17:342][617]OBJ SavePackage: Finished generating thumbnails for package [/Game/LevelPrototyping/Meshes/M_SM_Cube_M_CobbleStone_Rough_5392985C4A0F8912B41B89AA34DAEE03]
+[2025.03.14-19.35.17:344][617]LogSavePackage: Moving output files for package: /Game/LevelPrototyping/Meshes/M_SM_Cube_M_CobbleStone_Rough_5392985C4A0F8912B41B89AA34DAEE03
+[2025.03.14-19.35.17:344][617]LogSavePackage: Moving '../../../../../../Users/nacho/OneDrive/Documentos/Unreal Projects/UE_CLASES/Saved/M_SM_Cube_M_CobbleStone_Rough_533915276D437829EE0F7003B95EEA1BEA.tmp' to '../../../../../../Users/nacho/OneDrive/Documentos/Unreal Projects/UE_CLASES/Content/LevelPrototyping/Meshes/M_SM_Cube_M_CobbleStone_Rough_5392985C4A0F8912B41B89AA34DAEE03.uasset'
+[2025.03.14-19.35.17:348][617]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/LevelPrototyping/Meshes/M_SM_Cube_M_Concrete_Grime_949CC8804EB9FFD024138DBE8A700A09] ([2] browsable assets)...
+[2025.03.14-19.35.17:348][617]OBJ SavePackage: Finished generating thumbnails for package [/Game/LevelPrototyping/Meshes/M_SM_Cube_M_Concrete_Grime_949CC8804EB9FFD024138DBE8A700A09]
+[2025.03.14-19.35.17:352][617]LogSavePackage: Moving output files for package: /Game/LevelPrototyping/Meshes/M_SM_Cube_M_Concrete_Grime_949CC8804EB9FFD024138DBE8A700A09
+[2025.03.14-19.35.17:352][617]LogSavePackage: Moving '../../../../../../Users/nacho/OneDrive/Documentos/Unreal Projects/UE_CLASES/Saved/M_SM_Cube_M_Concrete_Grime_949CC47084242478116183FE40AA4CAF107D4.tmp' to '../../../../../../Users/nacho/OneDrive/Documentos/Unreal Projects/UE_CLASES/Content/LevelPrototyping/Meshes/M_SM_Cube_M_Concrete_Grime_949CC8804EB9FFD024138DBE8A700A09.uasset'
+[2025.03.14-19.35.17:357][617]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/LevelPrototyping/Meshes/M_SM_Cube_MI_M_SM_Cube_M_Brick_Clay_New_6221AC0D4CD5722085C61599F0A6A513_8E86421E41EA42CDE70095B1ABE9075E] ([2] browsable assets)...
+[2025.03.14-19.35.17:357][617]OBJ SavePackage: Finished generating thumbnails for package [/Game/LevelPrototyping/Meshes/M_SM_Cube_MI_M_SM_Cube_M_Brick_Clay_New_6221AC0D4CD5722085C61599F0A6A513_8E86421E41EA42CDE70095B1ABE9075E]
+[2025.03.14-19.35.17:383][617]LogSavePackage: Moving output files for package: /Game/LevelPrototyping/Meshes/M_SM_Cube_MI_M_SM_Cube_M_Brick_Clay_New_6221AC0D4CD5722085C61599F0A6A513_8E86421E41EA42CDE70095B1ABE9075E
+[2025.03.14-19.35.17:383][617]LogSavePackage: Moving '../../../../../../Users/nacho/OneDrive/Documentos/Unreal Projects/UE_CLASES/Saved/M_SM_Cube_MI_M_SM_Cube_M_Brick_C6C0D037C46F15A94DEBF8E8628DAC280.tmp' to '../../../../../../Users/nacho/OneDrive/Documentos/Unreal Projects/UE_CLASES/Content/LevelPrototyping/Meshes/M_SM_Cube_MI_M_SM_Cube_M_Brick_Clay_New_6221AC0D4CD5722085C61599F0A6A513_8E86421E41EA42CDE70095B1ABE9075E.uasset'
+[2025.03.14-19.35.17:390][617]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/LevelPrototyping/Meshes/M_SM_Cube_MI_M_SM_Cube_M_CobbleStone_Rough_5392985C4A0F8912B41B89AA34DAEE03_449FEDB245F07838070133A85D830681] ([2] browsable assets)...
+[2025.03.14-19.35.17:390][617]OBJ SavePackage: Finished generating thumbnails for package [/Game/LevelPrototyping/Meshes/M_SM_Cube_MI_M_SM_Cube_M_CobbleStone_Rough_5392985C4A0F8912B41B89AA34DAEE03_449FEDB245F07838070133A85D830681]
+[2025.03.14-19.35.17:393][617]LogSavePackage: Moving output files for package: /Game/LevelPrototyping/Meshes/M_SM_Cube_MI_M_SM_Cube_M_CobbleStone_Rough_5392985C4A0F8912B41B89AA34DAEE03_449FEDB245F07838070133A85D830681
+[2025.03.14-19.35.17:393][617]LogSavePackage: Moving '../../../../../../Users/nacho/OneDrive/Documentos/Unreal Projects/UE_CLASES/Saved/M_SM_Cube_MI_M_SM_Cube_M_CobbleS8EC5E2174F9F7EE9A6A65BA7E4E62A64.tmp' to '../../../../../../Users/nacho/OneDrive/Documentos/Unreal Projects/UE_CLASES/Content/LevelPrototyping/Meshes/M_SM_Cube_MI_M_SM_Cube_M_CobbleStone_Rough_5392985C4A0F8912B41B89AA34DAEE03_449FEDB245F07838070133A85D830681.uasset'
+[2025.03.14-19.35.17:790][617]LogFileHelpers: InternalPromptForCheckoutAndSave took 649.734 ms (total: 4.37 sec)
+[2025.03.14-19.35.17:879][617]LogStall: Shutdown...
+[2025.03.14-19.35.17:879][617]LogStall: Shutdown complete.
+[2025.03.14-19.35.17:956][617]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2025.03.14-19.35.17:956][617]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.14-19.35.18:185][617]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2025.03.14-19.35.18:185][617]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.14-19.35.18:214][617]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2025.03.14-19.35.18:214][617]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.14-19.35.18:241][617]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2025.03.14-19.35.18:241][617]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.14-19.35.18:336][617]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2025.03.14-19.35.18:336][617]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2025.03.14-19.35.18:336][617]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.14-19.35.18:491][617]LogWorld: UWorld::CleanupWorld for World_27, bSessionEnded=true, bCleanupResources=true
+[2025.03.14-19.35.18:491][617]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.14-19.35.18:507][617]LogWorld: UWorld::CleanupWorld for World_26, bSessionEnded=true, bCleanupResources=true
+[2025.03.14-19.35.18:508][617]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.14-19.35.18:531][617]LogWorld: UWorld::CleanupWorld for World_25, bSessionEnded=true, bCleanupResources=true
+[2025.03.14-19.35.18:532][617]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.14-19.35.18:604][617]LogWorld: UWorld::CleanupWorld for World_30, bSessionEnded=true, bCleanupResources=true
+[2025.03.14-19.35.18:604][617]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.14-19.35.18:684][617]LogWorld: UWorld::CleanupWorld for World_29, bSessionEnded=true, bCleanupResources=true
+[2025.03.14-19.35.18:684][617]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.14-19.35.18:701][617]LogWorld: UWorld::CleanupWorld for World_28, bSessionEnded=true, bCleanupResources=true
+[2025.03.14-19.35.18:701][617]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.14-19.35.18:749][617]LogSlate: Window 'Clases - Unreal Editor' being destroyed
+[2025.03.14-19.35.18:957][617]LogContentValidation: Display: Starting to validate 11 assets
+[2025.03.14-19.35.18:957][617]LogContentValidation: Enabled validators:
+[2025.03.14-19.35.18:957][617]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.03.14-19.35.18:957][617]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.03.14-19.35.18:957][617]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.03.14-19.35.18:957][617]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.03.14-19.35.18:957][617]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.03.14-19.35.18:957][617]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.03.14-19.35.18:957][617]AssetCheck: /Game/Characters/NinjaCharacter/Animations/BPAnim_Ninja Validando recurso
+[2025.03.14-19.35.18:958][617]AssetCheck: /Game/LevelPrototyping/Meshes/M_SM_Cube_M_Brick_Clay_New_6221AC0D4CD5722085C61599F0A6A513 Validando recurso
+[2025.03.14-19.35.18:958][617]AssetCheck: /Game/LevelPrototyping/Meshes/M_SM_Cube_M_Brick_Clay_New_6221AC0D4CD5722085C61599F0A6A513 Validando recurso
+[2025.03.14-19.35.18:958][617]AssetCheck: /Game/LevelPrototyping/Meshes/M_SM_Cube_M_CobbleStone_Rough_5392985C4A0F8912B41B89AA34DAEE03 Validando recurso
+[2025.03.14-19.35.18:958][617]AssetCheck: /Game/LevelPrototyping/Meshes/M_SM_Cube_M_CobbleStone_Rough_5392985C4A0F8912B41B89AA34DAEE03 Validando recurso
+[2025.03.14-19.35.18:958][617]AssetCheck: /Game/LevelPrototyping/Meshes/M_SM_Cube_M_Concrete_Grime_949CC8804EB9FFD024138DBE8A700A09 Validando recurso
+[2025.03.14-19.35.18:958][617]AssetCheck: /Game/LevelPrototyping/Meshes/M_SM_Cube_M_Concrete_Grime_949CC8804EB9FFD024138DBE8A700A09 Validando recurso
+[2025.03.14-19.35.18:958][617]AssetCheck: /Game/LevelPrototyping/Meshes/M_SM_Cube_MI_M_SM_Cube_M_Brick_Clay_New_6221AC0D4CD5722085C61599F0A6A513_8E86421E41EA42CDE70095B1ABE9075E Validando recurso
+[2025.03.14-19.35.18:959][617]AssetCheck: /Game/LevelPrototyping/Meshes/M_SM_Cube_MI_M_SM_Cube_M_Brick_Clay_New_6221AC0D4CD5722085C61599F0A6A513_8E86421E41EA42CDE70095B1ABE9075E Validando recurso
+[2025.03.14-19.35.18:959][617]AssetCheck: /Game/LevelPrototyping/Meshes/M_SM_Cube_MI_M_SM_Cube_M_CobbleStone_Rough_5392985C4A0F8912B41B89AA34DAEE03_449FEDB245F07838070133A85D830681 Validando recurso
+[2025.03.14-19.35.18:959][617]AssetCheck: /Game/LevelPrototyping/Meshes/M_SM_Cube_MI_M_SM_Cube_M_CobbleStone_Rough_5392985C4A0F8912B41B89AA34DAEE03_449FEDB245F07838070133A85D830681 Validando recurso
+[2025.03.14-19.35.19:022][617]LogUObjectHash: Compacting FUObjectHashTables data took   2.24ms
+[2025.03.14-19.35.19:045][617]Cmd: QUIT_EDITOR
+[2025.03.14-19.35.19:045][618]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2025.03.14-19.35.19:061][618]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2025.03.14-19.35.19:061][618]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2025.03.14-19.35.19:062][618]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2025.03.14-19.35.19:071][618]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.03.14-19.35.19:071][618]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.14-19.35.19:071][618]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap
+[2025.03.14-19.35.19:112][618]LogStylusInput: Shutting down StylusInput subsystem.
+[2025.03.14-19.35.19:112][618]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2025.03.14-19.35.19:140][618]LogWorld: UWorld::CleanupWorld for World_24, bSessionEnded=true, bCleanupResources=true
+[2025.03.14-19.35.19:141][618]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.14-19.35.19:151][618]LogWorld: UWorld::CleanupWorld for World_21, bSessionEnded=true, bCleanupResources=true
+[2025.03.14-19.35.19:151][618]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.14-19.35.19:159][618]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
+[2025.03.14-19.35.19:159][618]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.14-19.35.19:168][618]LogWorld: UWorld::CleanupWorld for World_23, bSessionEnded=true, bCleanupResources=true
+[2025.03.14-19.35.19:168][618]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.14-19.35.19:177][618]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2025.03.14-19.35.19:177][618]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.14-19.35.19:188][618]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2025.03.14-19.35.19:188][618]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.14-19.35.19:203][618]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2025.03.14-19.35.19:203][618]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.14-19.35.19:213][618]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2025.03.14-19.35.19:214][618]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.14-19.35.19:226][618]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2025.03.14-19.35.19:226][618]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.14-19.35.19:238][618]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2025.03.14-19.35.19:239][618]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.14-19.35.19:247][618]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2025.03.14-19.35.19:247][618]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.14-19.35.19:257][618]LogWorld: UWorld::CleanupWorld for World_22, bSessionEnded=true, bCleanupResources=true
+[2025.03.14-19.35.19:257][618]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.14-19.35.19:265][618]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2025.03.14-19.35.19:265][618]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.14-19.35.19:273][618]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2025.03.14-19.35.19:273][618]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.14-19.35.19:283][618]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2025.03.14-19.35.19:283][618]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.14-19.35.19:292][618]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2025.03.14-19.35.19:292][618]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.14-19.35.19:300][618]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2025.03.14-19.35.19:300][618]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.14-19.35.19:308][618]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2025.03.14-19.35.19:308][618]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.14-19.35.19:319][618]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2025.03.14-19.35.19:320][618]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.14-19.35.19:329][618]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2025.03.14-19.35.19:329][618]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.14-19.35.19:338][618]LogStudioTelemetry: Ended StudioTelemetry Session
+[2025.03.14-19.35.19:368][618]LogAnalytics: Display: [UEEditor.Rocket.Release] Destroying ET Analytics provider
+[2025.03.14-19.35.19:368][618]LogAnalytics: Display: [UEEditor.Rocket.Release] Ended ET Analytics provider session
+[2025.03.14-19.35.19:368][618]LogAnalytics: Display: [UEEditor.Rocket.Release] Destroyed ET Analytics provider
+[2025.03.14-19.35.19:824][618]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2025.03.14-19.35.19:824][618]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2025.03.14-19.35.19:825][618]LogAudio: Display: Audio Device unregistered from world 'ThirdPersonMap'.
+[2025.03.14-19.35.19:825][618]LogAudio: Display: Shutting down audio device while 1 references to it are still alive. For more information, compile with INSTRUMENT_AUDIODEVICE_HANDLES.
+[2025.03.14-19.35.19:825][618]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2025.03.14-19.35.19:832][618]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2025.03.14-19.35.19:849][618]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID -1
+[2025.03.14-19.35.19:849][618]LogAudio: Display: Audio Device Manager Shutdown
+[2025.03.14-19.35.19:864][618]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2025.03.14-19.35.19:864][618]LogExit: Preparing to exit.
+[2025.03.14-19.35.19:971][618]LogUObjectHash: Compacting FUObjectHashTables data took   9.32ms
+[2025.03.14-19.35.19:977][618]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.add_controls_for_selected_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.03.14-19.35.19:977][618]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.add_controls_for_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.03.14-19.35.19:985][618]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_null_above_selected_PY.add_null_above_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.03.14-19.35.19:988][618]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.03.14-19.35.19:988][618]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_all' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.03.14-19.35.19:988][618]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_x' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.03.14-19.35.19:988][618]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_y' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.03.14-19.35.19:989][618]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_z' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.03.14-19.35.19:989][618]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.03.14-19.35.19:989][618]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_scale' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.03.14-19.35.19:989][618]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.search_replace_name_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.03.14-19.35.19:989][618]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.search_replace_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.03.14-19.35.19:989][618]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_prefix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.03.14-19.35.19:989][618]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_prefix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.03.14-19.35.19:989][618]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_suffix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.03.14-19.35.19:989][618]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_suffix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.03.14-19.35.19:989][618]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.do_rename_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.03.14-19.35.19:989][618]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.do_rename_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.03.14-19.35.19:990][618]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/set_bone_reference_pose_PY.set_bone_reference_pose' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.03.14-19.35.19:990][618]LogPython: Display: Object '/ControlRig/Python/ControlRigWorkflows/workflow_fbik_import_ik_rig_PY.import_ik_rig_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.03.14-19.35.19:991][618]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.ControlOutputFormat' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.03.14-19.35.21:003][618]LogEditorDataStorage: Deinitializing
+[2025.03.14-19.35.21:418][618]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2025.03.14-19.35.21:481][618]LogExit: Editor shut down
+[2025.03.14-19.35.21:487][618]LogExit: Transaction tracking system shut down
+[2025.03.14-19.35.21:919][618]LogCore: Error: PropertyBag: Expecting RefCount to be zero on destructor, but it is 1.
+[2025.03.14-19.35.21:959][618]LogExit: Object subsystem successfully closed.
+[2025.03.14-19.35.22:057][618]LogShaderCompilers: Display: Shaders left to compile 0
+[2025.03.14-19.35.22:508][618]LogMemoryProfiler: Shutdown
+[2025.03.14-19.35.22:508][618]LogNetworkingProfiler: Shutdown
+[2025.03.14-19.35.22:508][618]LoadingProfiler: Shutdown
+[2025.03.14-19.35.22:508][618]LogTimingProfiler: Shutdown
+[2025.03.14-19.35.23:041][618]LogChaosDD: Chaos Debug Draw Shutdown
+[2025.03.14-19.35.23:041][618]LogStudioTelemetry: Display: Shutdown StudioTelemetry Module
+[2025.03.14-19.35.23:041][618]LogNFORDenoise: NFORDenoise function shutting down
+[2025.03.14-19.35.23:041][618]RenderDocPlugin: plugin has been unloaded.
+[2025.03.14-19.35.23:067][618]LogHttp: Warning: [FHttpManager::Shutdown] Unbinding delegates for 1 outstanding Http Requests:
+[2025.03.14-19.35.23:067][618]LogHttp: Warning: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B0C102EAA-449B-9D1A-0D5D-B3B3ACF2D0CF%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.5.1-38445549%2B%2B%2BUE5%2BRelease-5.5&UserID=ed4b14114d4529052fa59c885a9f30e5%7Ce7e4510cddb44a1b8205dd5301abd8c4%7C2b025372-0e3b-425c-8b16-77860b26fe6c&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[2] status=Processing
+[2025.03.14-19.35.25:587][618]LogEOSSDK: Warning: LogHttp: 000004CE083E2400: request was cancelled
+[2025.03.14-19.35.25:587][618]LogEOSSDK: Warning: LogHttp: 000004CE083E8400: request was cancelled
+[2025.03.14-19.35.25:587][618]LogEOSSDK: Warning: LogHttp: 000004CE083E7800: request was cancelled
+[2025.03.14-19.35.25:587][618]LogEOSSDK: Warning: LogHttp: 000004CE083EC600: request was cancelled
+[2025.03.14-19.35.25:604][618]LogEOSSDK: FEOSSDKManager::Shutdown EOS_Shutdown Result=[EOS_Success]
+[2025.03.14-19.35.25:623][618]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetActorFactory id: 0
+[2025.03.14-19.35.25:623][618]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetSubObjectFactory id: 1
+[2025.03.14-19.35.25:623][618]LogPakFile: Destroying PakPlatformFile
+[2025.03.14-19.35.26:679][618]LogD3D12RHI: ~FD3D12DynamicRHI
+[2025.03.14-19.35.26:728][618]LogExit: Exiting.
+[2025.03.14-19.35.26:777][618]Log file closed, 03/14/25 13:35:26
